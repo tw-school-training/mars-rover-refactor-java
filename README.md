@@ -1,11 +1,5 @@
-# 练功房脚手架
+# 使用方式
 
-如果你恰好也用Java做练功房的练习，可以从这个脚手架开始入手。
-
-准备步骤：
-
-* `git clone https://github.com/gigix/dojo-scaffold.git`
-* `mv dojo-scaffold my_kata && cd my_kata`
 * `./gradlew clean build`
   * 如果你使用Windows，这一步应该是 `gradlew.bat clean build`
 
