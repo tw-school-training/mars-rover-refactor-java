@@ -1,6 +1,7 @@
-package org.codingdojo.kata;
+package com.thoughtworks.refactor;
 
-import static com.google.common.collect.Lists.newArrayList;
+import java.util.Arrays;
+
 import static java.lang.Integer.valueOf;
 
 public class Rover {
@@ -73,6 +74,6 @@ public class Rover {
     }
 
     void execute(String statement) {
-        newArrayList(statement.split("(?!^)")).forEach(cmd -> on(cmd));
+        Arrays.asList(statement.split("(?!^)")).forEach(cmd -> on(cmd));
     }
 }

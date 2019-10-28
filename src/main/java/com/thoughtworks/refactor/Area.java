@@ -1,4 +1,4 @@
-package org.codingdojo.kata;
+package com.thoughtworks.refactor;
 
 import static java.lang.Integer.valueOf;
 
